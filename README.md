@@ -84,7 +84,8 @@ print(f"Predicted value: {pre}")
 ## Output:
 ## Data information
 
-![Screenshot 2025-03-06 153516](https://github.com/user-attachments/assets/05351daa-57bf-4569-ab17-a239b207723b)
+![image](https://github.com/user-attachments/assets/c26cd55a-5861-425c-9ee9-33b8ff9c0923)
+
 
 ## Value of x
 
