@@ -9,13 +9,25 @@ To write a program to predict the profit of a city using the linear regression m
 
 ## Algorithm
 
-1. Import the required library and read the dataframe.
+1.Import necessary libraries for numerical operations, data handling, and preprocessing.
 
-2.Write a function computeCost to generate the cost function.
+2.Load the startup dataset (50_Startups.csv) using pandas.
 
-3.Perform iterations og gradient steps with learning rate.
+3.Extract feature matrix X and target vector y from the dataset.
 
-4.Plot the Cost function using Gradient Descent and generate the required graph.
+4.Convert feature and target values to float and reshape if necessary.
+
+5.Standardize X and y using StandardScaler.
+
+6.Add a column of ones to X to account for the bias (intercept) term.
+
+7.Initialize model parameters (theta) to zeros.
+
+8.Perform gradient descent to update theta by computing predictions and adjusting for error.
+
+9.Input a new data point, scale it, and add the intercept term.
+
+10.Predict the output using learned theta, then inverse-transform it to get the final result. 
 
 ## Program:
 ```
@@ -70,22 +82,25 @@ print(f"Predicted value: {pre}")
 ```
 
 ## Output:
+## Data information
 
 ![Screenshot 2025-03-06 153516](https://github.com/user-attachments/assets/05351daa-57bf-4569-ab17-a239b207723b)
+
+## Value of x
 
 ![image](https://github.com/user-attachments/assets/abaf3965-a06a-470e-8f0e-cd26a6c5a58a)
 
 ![image](https://github.com/user-attachments/assets/b2862069-a35b-496e-b1bf-a57ba691dbde)
 
+## Value of X1_scaled
+
 ![image](https://github.com/user-attachments/assets/e18b6862-5c6e-4286-a446-88d83bb695d6)
 
 ![image](https://github.com/user-attachments/assets/7fab1d0c-4706-4d7f-93ba-6668ed9fb188)
 
-![image](https://github.com/user-attachments/assets/daae230a-6035-4291-8737-6b6fd1572c9c)
+## Predicted value
 
-
-
-
+![image](https://github.com/user-attachments/assets/26d25139-9f7c-4c70-9727-0a02988eb5c8)
 
 ## Result:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
